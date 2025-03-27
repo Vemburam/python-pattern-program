@@ -1,3 +1,67 @@
+#Separate PYTHON Letters:
+
+#Code for P:
+for row in range(7):
+    for col in range(7):
+        if(col==0)or(row==0 and col!=6) or (row==3 and col!=6)or((row==1 or row==2) and col==6):
+            print("*",end="")
+        else:
+            print(" ",end="")
+    print()
+print()
+
+#for value Y:
+for row in range(7):
+    for col in range(7):
+        if(row==col and col>=0 and col<4)or(col==3 and row>3)or(row==0 and col==6)or(row==1 and col==5)or(row==2 and col==4):
+             print("*",end="")
+        else:
+            print(" ",end="")
+    print()
+print()
+
+#for value T:
+for row in range(7):
+    for col in range(7):
+        if(col==3)or(row==0):
+             print("*",end="")
+        else:
+            print(" ",end="")
+    print()
+print()
+
+#for value H:
+for row in range(7):
+    for col in range(7):
+        if(col==0 or col==6)or(row==3):
+             print("*",end="")
+        else:
+            print(" ",end="")
+    print()
+print()
+
+#for value O:
+for row in range(7):
+    for col in range(7):
+        if(col==0 and row!=0 and row!=6) or (col==6 and row!=0 and row!=6)or(row==0 or row==6)and(col>0 and col<6):
+            print("*",end="")
+        else:
+            print(" ",end="")
+    print()
+print()
+
+#for value N:
+for row in range(7):
+    for col in range(7):
+        if(col==0 or col==6)or(row==col):
+            print("*",end="")
+        else:
+            print(" ",end="")
+    print()
+print()
+
+print("################################################################################################")
+print()
 
 strl="PYTHON"
 
