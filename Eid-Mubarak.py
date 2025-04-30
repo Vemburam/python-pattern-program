@@ -23,7 +23,6 @@ print_A=[[" "for i in range(7)]for j in range(7)]
 print_K=[[" "for i in range(7)]for j in range(7)]
 
 
-
 #CODE FOR H:
 for row in range(7):
     for col in range(7):
@@ -227,16 +226,4 @@ print()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-        
+  
