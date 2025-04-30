@@ -8,8 +8,6 @@ print_M=[[" " for i in range(7)]for j in range(7)]
 print_D=[[" " for i in range(7)]for j in range(7)]
 
 
-
-
 #code for H
 for row in range(7):
     for col in range(7):
